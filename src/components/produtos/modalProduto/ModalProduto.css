@@ -1,0 +1,10 @@
+.modal-content {
+  max-height: 80vh; /* Limita a altura do modal */
+  overflow-y: auto; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura máxima */
+  padding: 20px; /* Ajusta o espaçamento interno */
+}
+
+.popup-content {
+  max-width: 600px; /* Limita a largura do modal */
+  width: 100%; /* Garante que o modal seja responsivo */
+}
