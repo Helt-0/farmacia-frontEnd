@@ -18,6 +18,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <img style={{ width: '100%' }} src="https://cdn.leonardo.ai/users/d86bb62d-6578-46fe-ae3e-a0deaa725e44/generations/798b9d0b-8b7a-436f-8537-04d34f02d72f/Leonardo_Phoenix_A_regular_drugstore_namede_VIVA_FARMA_with_a_1.jpg" alt="" />
     </>
   );
 }

@@ -10,7 +10,7 @@ function CardProduto({ produto }: CardProdutoProps) {
   return (
     <div className='border-slate-900 border flex flex-col rounded overflow-hidden justify-between'>
       <div>
-        <div className="flex w-full bg-indigo-400 py-2 px-4 items-center gap-4">
+        <div className="flex w-full bg-gray-400 py-2 px-4 items-center gap-4">
           <img src={produto.foto} className='h-12 rounded-full' alt="" />
           <h3 className='text-lg font-bold text-center uppercase'>{produto.nome}</h3>
         </div>

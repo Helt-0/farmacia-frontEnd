@@ -13,9 +13,9 @@ function Navbar() {
         <div className="container flex justify-between text-lg">
           <div className='flex flex-col items-center text-center'>
             <div className='flex items-center text-2xl font-bold uppercase mb-2'>
-              <span>Viva</span>
-              <FirstAid size={32} style={{ color: 'red', margin: '0 8px' }} />
-              <span>Farma</span>
+            <Link to='/home' className='hover:underline'><span>Viva</span></Link>
+            <Link to='/home' className='hover:underline'><FirstAid size={32} style={{ color: 'red', margin: '0 8px' }} /></Link>
+            <Link to='/home' className='hover:underline'> <span>Farma</span></Link>
             </div>          
             <div className='text-lg font-medium'>
               Saúde em cada dose!
