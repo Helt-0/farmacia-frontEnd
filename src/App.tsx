@@ -1,12 +1,27 @@
 import React from 'react';
 import './App.css';
+import Home from './pages/home/Home';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
-    <h1 className="text-3xl font-bold text-red-500 underline text-center">
-      Teste Etapa 1, Branch config (configurando dependências iniciais do projeto)
-    </h1>
+    <BrowserRouter>
+        <Navbar />
+          <div className='min-h-[80vh]'>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/produtos" element={<Home />} />
+              <Route path="/categorias" element={<Home />} />
+              <Route path="/cadastrar-categoria" element={<Home />} />
+            </Routes>
+          </div>
+          <Footer />
+        </BrowserRouter>
     </>
 );
 }
